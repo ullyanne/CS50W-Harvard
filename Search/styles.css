@@ -1,0 +1,226 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.links {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem 0;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  margin-right: 2em;
+  font-family: arial;
+  font-size: 13px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #3d3d3d;
+}
+
+.links a:hover, .links a:active {
+  text-decoration: underline;
+}
+
+.menu-item {
+  list-style: none;
+  margin-right: 15px;
+}
+
+.menu {
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  margin-right: 20px;
+  margin-top: 16px;
+}
+
+.search-container {
+  width: 100vw;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.search-bar {
+  background-color: white;
+  border: 1px solid #a3abb3;
+  border-width: thin;
+  height: 41px;
+  width: 500px;
+  border-radius: 50px;
+  padding: 0px 15px;
+  font-size: 16px;
+  clear: both;
+}
+
+.search-bar:focus {
+  outline: none;
+  -webkit-box-shadow: inset 0 0 0 1px white, 0 0 3px 1px #e7e4e4;
+          box-shadow: inset 0 0 0 1px white, 0 0 3px 1px #e7e4e4;
+}
+
+.search-elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.search-adv-elements {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-grid-columns: 200px 300px;
+      grid-template-columns: 200px 300px;
+  margin-left: 2.5rem;
+  margin-top: 2rem;
+  font-family: arial;
+  font-size: 14px;
+}
+
+.search-adv-bar {
+  width: 600px;
+  height: 23px;
+  background-color: white;
+  border: 1px solid #a3abb3;
+  border-width: thin;
+  padding: 0px 7px;
+  clear: both;
+}
+
+.search-adv-bar:focus {
+  outline: none;
+  -webkit-box-shadow: inset #4b89ee 0 0 0 1px;
+          box-shadow: inset #4b89ee 0 0 0 1px;
+}
+
+.button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  margin: 11px 6px;
+  height: 36px;
+  padding: 0 16px;
+  cursor: pointer;
+  color: #3c4043;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.button:hover {
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 1px 1px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 1px 1px 0px;
+  border: 1px solid #dadce0;
+  color: black;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 10px;
+}
+
+.logo-txt {
+  color: #4285f4;
+  font-family: arial;
+}
+
+.buttons {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.adv-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 2.5rem;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  font-family: arial;
+  color: #D93025;
+  font-size: 20px;
+}
+
+.buttons-adv {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-left: 2.5rem;
+}
+
+.button-adv {
+  background-color: #4b89ee;
+  border: 1px solid #8ab4f8;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  height: 30px;
+  padding: 0 16px;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.button-adv:hover {
+  background-color: #7facf5;
+}
+
+.border {
+  margin-top: 1rem;
+  border-bottom: 1px solid #ebebeb;
+}
+/*# sourceMappingURL=styles.css.map */
